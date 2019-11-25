@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  background-color: #272727;
+  min-height: 100vh;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  margin-bottom: 16px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+#customBtn {
+  display: block;
+  background: white;
+  color: #444;
+  width: 190px;
+  height: fit-content;
+  border-radius: 5px;
+  border: thin solid #888;
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+}
+#customBtn:hover {
+  cursor: pointer;
+}
+.signin {
+  color: #272727;
+  width: 100%;
+  padding: 100px;
+  background: #F6F6F6;
+}
+span.label {
+  font-family: serif;
+  font-weight: normal;
+}
+span.icon {
+  background: url('https://google-developers.appspot.com/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+span.buttonText {
+  margin: 15px 0;
+  display: inline-block;
+  padding-right: 42px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.Home{
+  height: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.Home button{
+  color: #61dafb;
+  margin-top: 24px;
+  background: #272727;
+  border: 1px solid #61dafb;
+  padding: 8px;
+  border-radius: 50px;
+}
+.Home button a{
+  color: #61dafb;
+  text-decoration: none;
+}
+.Home input{
+  color: white;
+  margin-top: 24px;
+  background: #272727;
+  border: 1px solid #61dafb;
+  padding: 8px;
+  border-radius: 50px;
+}
+.user{
+  color: #61dafb;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: auto;
+}
+.user img{
+  height: 48px;
+  width: 48px;
+  border: 1px solid #bdbdbd;
+  border-radius: 100%;
+  object-fit: contain;
+}
+.user .userName, .user i{
+  align-self: center;
+  padding: 8px;
+}
+
+.room{
+  display: flex;
+  flex-flow: column;
+}
+.player .role{
+  margin: 16px 0;
+}
+.role img{
+  width: 100%;
+  border: 1px solid #61dafb;
+  border-radius: 16px;
+}
+.moderator ul{
+  list-style: none;
+  padding: 0 18px;
+}
+.moderator .user{
+  margin: 16px 0;
+}
+.moderator .user{
+  width: 100%;
+}
+.moderator .user .userName{
+  flex-grow: 1;
+  text-align: left;
+}
+.moderator .middlecard{
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+}
+.middlecard .card{
+  flex: 1;
+  margin: 16px;
+  min-height: 102px;
+  background-color: #272727;
+  border-radius: 3px;
+  border: 1px solid #61dafb;
+}
+.middlecard img{
+  height: 100px;
+}
+.ignoreroles .roles{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: fit-content;
+}
+.ignoreroles .roles .role{
+  border: 1px solid #61dafb;
+  margin: 8px 8px;
+  padding: 8px;
+  padding-top: 0;
+  border-radius: 50px;
+}
